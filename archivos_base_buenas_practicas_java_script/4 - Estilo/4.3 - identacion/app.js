@@ -1,9 +1,3 @@
-// minificar el codigo
-// permite un ocdigo optimizado y mejor ejecucion
-// ventaja: menor tiempo de ejecucion
-// Tool: jscompress.com
-// using fremework tienen minimizadores de codigo
-
 var tienda = {
     nombre: "Tienda las 4 esquinas",
     calcular: function(costo1, costo2) {
