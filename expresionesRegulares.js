@@ -29,3 +29,4 @@ console.log(expresion1.test('abcdef'));
 var expresion2 = /hola mundo/;
 console.log(expresion2.test('El primer programa es hola mundo'));
 //-----------------------------------------------------------
+// Evaluar un conjunto de caracteres con expresiones regulares;
