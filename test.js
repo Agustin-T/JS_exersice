@@ -1,14 +1,6 @@
 'use strick'
 
-var expresion1 = /Hola mundo/;
+// {minimo, maximo} de 1 a dos digitos
+var expresion1 = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/;
 
-console.log(expresion1.test('Hola mundo'))
-var expresion2 = /Hola mun?do/;
-
-console.log(expresion2.test('Hola mundo'))
-
-var expresion3 = /Hola mun?do/;
-
-console.log(expresion3.test('Hola mudo'))
-
-// en todas dan true ya que da la posibilidad que exista o no, por lo cual "perdona" esos sucesos.
+console.log(expresion1.test('27-6-2007 11:45'))// true
