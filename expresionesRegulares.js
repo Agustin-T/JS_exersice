@@ -30,3 +30,15 @@ var expresion2 = /hola mundo/;
 console.log(expresion2.test('El primer programa es hola mundo'));
 //-----------------------------------------------------------
 // Evaluar un conjunto de caracteres con expresiones regulares;
+var expresion1 = /[0123456789]/;
+
+// busca si almenos existe en expresion true
+//no hace falta que sea exacto
+console.log(expresion1.test('Sucesio en 1996'));
+
+var expresion2 = /[0-9a-zA-Z]/;// 0 hasta el 9, a hasta z y A hasta Z
+console.log(expresion2.test('Sucesio en 1996'));
+
+var expresion3 = /@/;
+console.log(expresion3.test('Error'));// False
+console.log(expresion3.test('name@mail.com'));// True
