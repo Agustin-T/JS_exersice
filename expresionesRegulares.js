@@ -43,6 +43,21 @@ console.log(expresion2.test('Sucesio en 1996'));
 var expresion3 = /@/;
 console.log(expresion3.test('Error'));// False
 console.log(expresion3.test('name@mail.com'));// True
+//-----------------------------------------------------------
+//  Uso de ayajos para grupos de caracteres
+
+
+//-----------------------------------------------------------
+// Coincidencias y negaciones de expresiones
+
+//-----------------------------------------------------------
+//  Trabajar con caracteres espreciales para repetir patrones
+
+//-----------------------------------------------------------
+//  Patrones opcionales en la expresiones regulares
+
+//-----------------------------------------------------------
+//  Conteo de patrones de expresiones regulares
 
 
 //-----------------------------------------------------------
