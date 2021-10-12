@@ -16,3 +16,5 @@ var expresion2 = /abc/;
 
 //usar con expresiones cortas
 var parrafo = /text1\/n text2/;
+//-----------------------------------------------------------
+// Evaluacion de primeras expresiones

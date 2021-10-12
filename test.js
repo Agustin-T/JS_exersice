@@ -1,13 +1,12 @@
 'use strick'
 
-// var regEx = 
-//objeto que permite realiza varias operacion, como robar un patron y como ejecutarlo
-//usar con expresiones grandes
+// ejemplo 1
+
 var expresion1 = new RegExp('abc');
+// test() retorna true si encuentra lo que esta entre parentesis, (patron)
+console.log(expresion1.test('abcdef'));
 
-//ahce lo mismo
-//
-var expresion2 = /abc/;
 
-//usar con expresiones cortas
-var parrafo = /text1\/n text2/
+// ejemplo 2
+var expresion2 = /hola mundo/;
+console.log(expresion2.test('El primer programa es hola mundo'));
