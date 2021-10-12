@@ -1,14 +1,14 @@
 'use strick'
 
-var expresion1 = /\d/;
+var expresion1 = /Hola mundo/;
 
-console.log(expresion1.test('1997'));
+console.log(expresion1.test('Hola mundo'))
+var expresion2 = /Hola mun?do/;
 
-// + (1 o mas veces),* (1 o mas veces sin importar si existe)
+console.log(expresion2.test('Hola mundo'))
 
-var expresion2 = /\d+/;
+var expresion3 = /Hola mun?do/;
 
-console.log(expresion2.test('')); // false:porque por lo menos no hay una repeticion
-var expresion3 = /\d*/;
+console.log(expresion3.test('Hola mudo'))
 
-console.log(expresion3.test('')); //True
+// en todas dan true ya que da la posibilidad que exista o no, por lo cual "perdona" esos sucesos.
