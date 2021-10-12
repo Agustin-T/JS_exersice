@@ -77,7 +77,20 @@ console.log(expresion2.test('10101001100110001'));// false
 console.log(expresion2.test('10101001200110001'));// True
 
 //-----------------------------------------------------------
-//  Trabajar con caracteres espreciales para repetir patrones
+//  Trabajar con caracteres especiales para repetir patrones
+
+var expresion1 = /\d/;
+
+console.log(expresion1.test('1997'));
+
+// + (1 o mas veces),* (1 o mas veces sin importar si existe)
+
+var expresion2 = /\d+/;
+
+console.log(expresion2.test('')); // false:porque por lo menos no hay una repeticion
+var expresion3 = /\d*/;
+
+console.log(expresion3.test('')); //True
 
 //-----------------------------------------------------------
 //  Patrones opcionales en la expresiones regulares
