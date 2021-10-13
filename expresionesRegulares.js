@@ -132,6 +132,13 @@ console.log(expresion1.test('Hola mundo'));
 //-----------------------------------------------------------
 //patrones en subexpresiones
 
+// + es uno a mas repeticiones
+//() subexpresiones
+var expresion1 = /Woo+(hoo+)+/i;
+
+// Woohooooooooo!
+console.log(expresion1.test('Woohooooohooooohooooohooooo'));
+
 //-----------------------------------------------------------
 //  exec y match
 
