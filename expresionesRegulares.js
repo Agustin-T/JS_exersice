@@ -152,22 +152,59 @@ console.log('Hasta 1994'.match(/\d+/))
 //-----------------------------------------------------------
 //  Estructura y orden de expresiones regulares
 //-----------------------------------------------------------
+//  Limitar palabras y cadenas de texto en una expresion regular
+
+
+
+
+//-----------------------------------------------------------   
+//  Uso de patrones opcionales en tue expresiones regulares 
+
+
 
 //-----------------------------------------------------------
-//-----------------------------------------------------------
+//  Patrones al incio y al final de una expresion
+
+
+
 
 //-----------------------------------------------------------
 //  Mayor provecho a tus expresiones regulares
 //-----------------------------------------------------------
+//  Conoce y usar el metodo Replace en las cadenas de texto
+
+
 
 //-----------------------------------------------------------
+//  Metodo de busqueda en las cadenas de texto
+
+
 //-----------------------------------------------------------
+//  La propiedad LasrIndex en expresiones regulares
+
+
+
 //-----------------------------------------------------------
+//  ciclos  y evaluaciones en la expresiones regulares
+
+
 
 //-----------------------------------------------------------
 //  Usos comunes
 //-----------------------------------------------------------
+//  Patrones de correo electronico
+
+
 
 //-----------------------------------------------------------
+//  Validacion de Twitter user
+
+
+
 //-----------------------------------------------------------
+//  Expresiones Regulares
+
+
+
 //-----------------------------------------------------------
+//  Consideraciones Finales
