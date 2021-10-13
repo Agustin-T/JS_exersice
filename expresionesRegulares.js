@@ -122,7 +122,12 @@ console.log(expresion1.test('27-6-2007 11:45'))// true
 //  Saber y Agrupar los patrones segun tipos y funciones
 //-----------------------------------------------------------
 // Patrones no sensibles a mayusculas y minusculas
+// incencible a mayusculas
+var expresion1 = /Hola Mundo/i;
 
+// ocupar un identificador para que no tenga 
+
+console.log(expresion1.test('Hola mundo'));
 
 //-----------------------------------------------------------
 //patrones en subexpresiones
