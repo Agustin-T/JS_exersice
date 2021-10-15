@@ -154,7 +154,13 @@ console.log('Hasta 1994'.match(/\d+/))
 //-----------------------------------------------------------
 //  Limitar palabras y cadenas de texto en una expresion regular
 
+//\b sirve para poner un limite
 
+var expresion1 = /\bcat\b/;
+var expresion2 = /\bcat\b/;
+
+console.log(expresion1.test('cat'));// True
+console.log(expresion2.test('categoria'));// False
 
 
 //-----------------------------------------------------------   
