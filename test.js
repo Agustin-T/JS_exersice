@@ -1,2 +1,3 @@
 'use strick'
 
+// LastIndex
