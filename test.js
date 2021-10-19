@@ -10,6 +10,5 @@ var match;
 
 while(match = patron.exec(mensaje)){
     console.log(match);
-    console.log('Se encontro',match[0], ' en ', match.index);
-    
+    console.log('Se encontro',match[1], ' en ', match.index);
 }
